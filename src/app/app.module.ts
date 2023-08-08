@@ -15,6 +15,7 @@ import { TeamdetailComponent } from './components/pages/teamdetail/teamdetail.co
 import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/pages/login/login.component';
 import { CareersComponent } from './components/pages/careers/careers.component';
+import { JobDescComponent } from './components/pages/job-desc/job-desc.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { CareersComponent } from './components/pages/careers/careers.component';
     TeamComponent,
     TeamdetailComponent,
     LoginComponent,
-    CareersComponent
+    CareersComponent,
+    JobDescComponent
   ],
   imports: [
     BrowserModule,
