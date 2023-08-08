@@ -7,8 +7,6 @@ import { ServicesComponent } from './components/pages/services/services.componen
 import { CareersComponent } from './components/pages/careers/careers.component';
 import { LoginComponent } from './components/pages/login/login.component';
 import { JobDescComponent } from './components/pages/job-desc/job-desc.component';
-//import { JobDescComponent } from '.components/pages/job-desc/job-desc.component';
-
 
 
 const routes: Routes = [
