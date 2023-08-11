@@ -5,22 +5,14 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<div class="about-intro-area pt-20"></div>
-    <div class="container">
-      
-      
-      
-      
-      
-      
-      
-      <h2>Career</h2><br/>
+  <div class="about-intro-area pt-20"></div>
+  <div class="container">
 
 
 
-
-
-      <!-- Your existing content here -->
+    
+    <h2>Career</h2><br/>
+    <!-- Your existing content here -->
   </div>
 
   <!-- Separate container for job details -->
@@ -34,21 +26,18 @@
           <th scope="col">Name</th>
           <th scope="col">Employment Type</th>
           <th scope="col">Location</th>
-
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let job of jobDetail; let i = index">
+        <tr *ngFor="let job of jobDetails; let i = index" (click)="openJobDescription(job.id)">
           <th scope="row">{{ i + 1 }}</th>
           <td>{{ job.id }}</td>
           <td>{{ job.name }}</td>
           <td>{{ job.employmentType }}</td>
           <td>{{ job.location }}</td>
-          
         </tr>
       </tbody>
     </table>
   </div>
-  
 </body>
 </html>

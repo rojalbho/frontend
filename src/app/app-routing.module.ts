@@ -9,6 +9,7 @@ import { LoginComponent } from './components/pages/login/login.component';
 import { JobDescComponent } from './components/pages/job-desc/job-desc.component';
 
 
+
 const routes: Routes = [
   {
     path:'',component:HomeComponent 

@@ -15,6 +15,8 @@ import { FormsModule } from '@angular/forms';
 import { LoginComponent } from './components/pages/login/login.component';
 import { CareersComponent } from './components/pages/careers/careers.component';
 import { JobDescComponent } from './components/pages/job-desc/job-desc.component';
+import { ApiService } from './api.service';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +39,7 @@ import { JobDescComponent } from './components/pages/job-desc/job-desc.component
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ApiService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
